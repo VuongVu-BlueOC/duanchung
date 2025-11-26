@@ -27,6 +27,7 @@ export default function IDAForm() {
     { title: "Mã hàng", dataIndex: "code" },
     { title: "Mô tả", dataIndex: "desc" },
     { title: "Số lượng", dataIndex: "qty" },
+    { title: "Số thập phân", dataIndex: "qty" },
     {
       title: "",
       render: (_, r) => (
